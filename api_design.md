@@ -9,7 +9,9 @@
     - DELETE -> Exclui o recurso;
     - OPTIONS -> Mostra as esquisitices opcionais do servidor, não do recurso;
 
-    Aos detalhes: o método GET é seguro, ou seja, não resulta numa mudança do estado do recurso (somente leitura, read-only). Os métodos GET, PUT e DELETE são idempotentes, significando que, ao aplicá-los diversas vezes, o estado alterado resultado será idêntico ao aplicá-los somente uma vez, apesar da resposta obtida poder variar. Os métodos GET e POST são cacháveis (dá pra fazer cachinhos neles, ou armazená-los em memória para uso futuro - e mais rápido).
+    Aos detalhes: o método GET é seguro, ou seja, não resulta numa mudança do estado do recurso (somente leitura, read-only). <br>
+    Os métodos GET, PUT e DELETE são idempotentes, significando que, ao aplicá-los diversas vezes, o estado alterado resultado será idêntico <br> ao aplicá-los somente uma vez, apesar da resposta obtida poder variar. <br> 
+    Os métodos GET e POST são cacháveis (dá pra fazer cachinhos neles, ou armazená-los em memória para uso futuro - e mais rápido).
 
     Existem alguns tipos diferentes de API além das baseadas na _web_:
     - APIs de sistemas operacionais (como, por exemplo, a API do Win32);
