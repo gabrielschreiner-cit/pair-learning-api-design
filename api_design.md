@@ -1,6 +1,8 @@
 # APIs REST - O que são?
 
-    Basicamente, uma API (application programming interface) REST (representational state transfer) é um **conjunto de métodos de comunicaçãoclaramente definidos entre diversos componentes distintos**, utilizando um estilo arquitetural de software chamado **representational state transfer**, ou transferência representacional de estado, em tradução livre, quando em contexto de serviços _web_
+    Basicamente, uma API (application programming interface) REST (representational state transfer) é **um conjunto de métodos de                           comunicação claramente definidos entre diversos componentes distintos**, 
+    utilizando um estilo arquitetural de software chamado **representational state transfer**, 
+    ou transferência representacional de estado, em tradução livre, quando em contexto de serviços _web_
     As APIs cuja comunicação se baseia em HTTP possuem certos métodos que auxiliam o entendimento da dinâmica:
     - GET -> "Cata" uma representação do estado do recurso-alvo;
     - POST -> Deixa o recurso-alvo processar a representação anexada no pedido;
@@ -9,11 +11,12 @@
     - DELETE -> Exclui o recurso;
     - OPTIONS -> Mostra as esquisitices opcionais do servidor, não do recurso;
 
-    Aos detalhes: o método GET é seguro, ou seja, não resulta numa mudança do estado do recurso (somente leitura, read-only). <br>
-    Os métodos GET, PUT e DELETE são idempotentes, significando que, ao aplicá-los diversas vezes, o estado alterado resultado será idêntico <br> ao aplicá-los somente uma vez, apesar da resposta obtida poder variar. <br> 
+    Aos detalhes: o método GET é seguro, ou seja, não resulta numa mudança do estado do recurso (somente leitura, read-only).
+    Os métodos GET, PUT e DELETE são idempotentes, significando que, ao aplicá-los diversas vezes, o estado alterado resultado será idêntico                                
+    ao aplicá-los somente uma vez, apesar da resposta obtida poder variar.
     Os métodos GET e POST são cacháveis (dá pra fazer cachinhos neles, ou armazená-los em memória para uso futuro - e mais rápido).
 
-    Existem alguns tipos diferentes de API além das baseadas na _web_:
+    Existem alguns tipos diferentes de API além das baseadas na web:
     - APIs de sistemas operacionais (como, por exemplo, a API do Win32);
     - APIs de Libraries (ex.: Library de classes do Java, uma Library de usuários);
     - APIs remotas (caindo em desuso), que necessariamente precisam ser escritas na mesma plataforma e se comunicam por protocolos proprietários;
@@ -70,7 +73,7 @@
     access-control-allow-origin: *
     Vary: accept-encoding
     
-    { "orderID" : "13", "orderDate" : "13.10.2019", "items" : [ "id" : "19", "id" : "31"] }
+    { "orderId" : "13", "orderDate" : "13.10.2019", "items" : [ "id" : "19", "id" : "31"] }
 
 
 
